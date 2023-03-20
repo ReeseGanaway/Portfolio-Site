@@ -1,0 +1,61 @@
+html,
+body {
+    margin: 0;
+	height: 100%;
+	font-size: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+#root{
+    position: fixed;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+    padding: 0;
+    margin: 0; 
+}
+
+.App{
+    
+    position: fixed;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+    padding: 0;
+    margin: 0; 
+
+}
+
+
+
+#bg{
+    
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+/* #bg-canvas{
+    aspect-ratio: auto;
+    
+            width: 100%;
+            height: 100%;
+} */
+
+/* .parent-div{
+    margin: 0px;
+    height:100vh;
+    width: 100vh;
+
+} */
+
+/* .bg-canvas {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+} */
+

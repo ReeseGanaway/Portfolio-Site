@@ -1,11 +1,13 @@
 import { ThpaceGL } from 'thpace';
 import { useEffect } from 'react';
 import './LandingPage.css'
+import Background from './Background';
 
 
 
 const settings = {
-	colors: ['#4CB1EF', '#424959', '#FF4B44'],
+	colors: ['#EC3819', '#F51B8B','#1D35AA'],
+    //'#4CB1EF', '#424959', '#FF4B44', '#39F71F',
 	triangleSize: 100,
 };
 
@@ -19,15 +21,16 @@ function LandingPage() {
         canvas.width = document.body.scrollWidth
         canvas.height = document.body.scrollHeight
         ThpaceGL.create(canvas, settings);
-    
-     
     }, [])
     
   
     return (
-      
-          <canvas id="bg-canvas"></canvas>
-      
+      <div id = 'parent-div'>
+          <Background/>
+          <div id = 'game-div'>
+            <canvas id='canvas2'></canvas>
+          </div>
+      </div>
     )
   }
   

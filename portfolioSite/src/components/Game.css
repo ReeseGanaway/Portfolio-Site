@@ -15,33 +15,3 @@
     width: 480px;
     height: 480px;
 }
-
-
-
-#bg{
-    
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-}
-/* #bg-canvas{
-    aspect-ratio: auto;
-    
-            width: 100%;
-            height: 100%;
-} */
-
-/* .parent-div{
-    margin: 0px;
-    height:100vh;
-    width: 100vh;
-
-} */
-
-/* .bg-canvas {
-    position:absolute;
-    height: 100%;
-    width: 100%;
-} */
-

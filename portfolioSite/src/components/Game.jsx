@@ -22,7 +22,9 @@ function Game() {
           <Background/>
           <div id = 'game-div'>
             <canvas id='canvas2'></canvas>
+            <h1 id = 'header'>IM HERE</h1>
           </div>
+          
       </Fragment>
     )
   }

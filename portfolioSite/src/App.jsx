@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import {Route, Routes, BrowserRouter} from 'react-router-dom';
 import LandingPage from './components/LandingPage';
+import Game from './components/Game';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             
               <Route path="/" element={<LandingPage />} />
+              <Route path="/game" element={<Game/>}/>
 
           </Routes>
         </BrowserRouter>

@@ -3,6 +3,7 @@ import { Fragment, useEffect } from 'react';
 import './Game.css'
 import Background from './Background';
 import Drawer from './Drawer';
+import GrassCanvas from './GrassCanvas';
 
 
 
@@ -27,9 +28,7 @@ function Game() {
             </div>
 
             <div className='flex justify-center col-span-4  h-screen items-center'>
-              <div id = 'game-div '>
-                <canvas id='canvas2'></canvas>
-              </div>
+              <GrassCanvas/>
             </div>
           </div>  
       </Fragment>

@@ -2,6 +2,7 @@ import { ThpaceGL } from 'thpace';
 import { Fragment, useEffect } from 'react';
 import './Game.css'
 import Background from './Background';
+import Drawer from './Drawer';
 
 
 
@@ -20,11 +21,17 @@ function Game() {
     return (
         <Fragment>
           <Background/>
-          <div id = 'game-div'>
-            <canvas id='canvas2'></canvas>
-            <h1 id = 'header'>IM HERE</h1>
-          </div>
-          
+          <div className= "grid grid-cols-5 gap-4">
+            <div className='col-span-1'>
+              <Drawer />
+            </div>
+
+            <div className='flex justify-center col-span-4  h-screen items-center'>
+              <div id = 'game-div '>
+                <canvas id='canvas2'></canvas>
+              </div>
+            </div>
+          </div>  
       </Fragment>
     )
   }

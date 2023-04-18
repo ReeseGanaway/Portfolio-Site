@@ -18,9 +18,9 @@ function Background() {
     
   
     return (
-      <div id = 'parent-div'>
+      
           <canvas id="bg-canvas"></canvas>
-      </div>
+      
     )
   }
   

@@ -33,3 +33,8 @@
     margin: 0; 
 
 }
+
+#bg-canvas{
+	position: fixed;
+	z-index: -200;
+}
